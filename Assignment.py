@@ -28,7 +28,7 @@ for i in num:
 # TO GENERATE FAKE TICKETS WITHOUT REPETITION
 ftickets = random.sample(tickets, NUMOFFAKES)
 # print(ftickets)
-gameboard = []  # TO CREATE A EMPTY BORD
+gameboard = []  # TO CREATE A EMPTY BOARD
 for i in range(XSIZE):
     l = []
     for j in range(YSIZE):
