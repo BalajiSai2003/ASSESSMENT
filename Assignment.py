@@ -59,7 +59,7 @@ def display(gameboard):  # TO DISPLAY CONTENTS OF GAME BOARD
     for i in lll:  # TO ADD LABETS TO ROWS OF GAME BOARD
         lb1 = tk.Label(window, text=i)
         lb1.grid(column=0, row=r)
-        r += 1
+        r = r + 1
 
     w = 1
     for l in gameboard:  # TO DISPLAY VALUES OF GAME BOARD
